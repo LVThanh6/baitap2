@@ -1,0 +1,94 @@
+
+body{
+    height: 880px;
+    width: 500px;
+    font-family: Verdana; 
+    
+}
+.main{
+    color: #000000;
+    font-size: 24px;
+    position: relative;
+}
+
+.bieumau{
+    height: 100%;
+    width: 460px;
+    background-color: #05c46b ;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-left: 420px;
+    
+}
+.form_dien{
+    width: 420px;
+    height: 800px;
+    background-color: white;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
+}
+.thongtin{
+    width: 380px;
+    height: 32px;
+}
+.form_dien{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gioithieu{
+    display: flex;
+    width: 380px;
+    height: 70px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.gioithieu div{
+    display: flex;
+    height: 28px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.gioithieu div input{
+    width: 12px;
+    height: 12px;
+}
+.ngonngult{
+    display: flex;
+    width: 380px;
+    height: 70px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 64px;
+}
+.ngonngult div{
+    display: flex;
+    height: 28px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.cauhoi{
+    margin-top: 72px;
+}
+
+.submit{
+    width: 380px;
+    height: 28px;
+    background-color: #c45105;
+    font-size: 22px;
+    color: #000000;
+    margin-top: 16px;
+}
+#nghenghiep{
+    width: 380px;
+    height: 36px;
+    position: relative;
+}
+
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div class="bieumau">
+        <h1 class="main">Biểu mẫu khảo sát IT việc làm</h1>
+        <div class="form_dien">
+            <div class="name">
+                <p>Họ Tên</p>   
+                <input type="text" class="thongtin" placeholder="Nhập họ tên của bạn">
+            </div>
+            <div class="email">
+                <p>Email</p>
+                <input type="text" class="thongtin" placeholder="Nhập email của bạn">
+            </div>
+            <div class="tuoi">
+                <p>Tuổi</p>
+                <input type="text" class="thongtin" placeholder="Nhập tuổi">
+            </div>
+            <div class="nghiep">
+                <p>Hiện tại bạn đang là ?</p>
+                <select name="nghenghiep" id="nghenghiep" value="Học sinh/Sinh viên">
+                    <option value="" disabled selected>Học sinh/Sinh viên</option>
+                    <option value="hocsinh">Học sinh</option>
+                    <option value="sinhvien">Sinh viên</option>
+                </select>
+            </div>
+            <div class="gioithieu">
+                <p>Bạn sẽ giới thiệu IT với bạn bè chứ</p>
+                <div class="co">
+                    <input type="radio" name="gioithieu_luachon">
+                    <div>Có</div>
+                </div>
+                <div class="khong">
+                    <input type="radio" name="gioithieu_luachon">
+                    <div>Không</div>
+                </div>
+                <div class="cothe">
+                    <input type="radio" name="gioithieu_luachon">
+                    <div>Có thể</div>
+                </div>
+            </div>
+            <div class="ngonngult">
+                <p>Ngôn ngữ lập trình và Framework bạn đã biêt? (Có thể chọn nhiều đáp án)</p>
+                <div class="C">
+                    <input type="checkbox" name="ngonngu">
+                    <div>C</div>
+                </div>
+                <div class="C++">
+                    <input type="checkbox" name="ngonngu">
+                    <div>C++</div>
+                </div>
+                <div class="C#">
+                    <input type="checkbox" name="ngonngu">
+                    <div>C#</div>
+                </div>
+            </div>
+            <div class="cauhoi">
+                <p>Bạn có câu hỏi gì về công việc IT không?</p>   
+                <input type="text" class="thongtin" placeholder="Câu hỏi">
+            </div>
+            <div >
+                <button class="submit">Sunmit</button>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+</body>
+</html>
