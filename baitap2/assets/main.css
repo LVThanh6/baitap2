@@ -1,0 +1,475 @@
+
+*{
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #141619;
+    width: 100%;
+    min-width: 1440px;
+    height: 6580px;
+    color: #FFFFFF;
+    max-width: 1600px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.header{
+    height: 88px;
+    width: 100%;
+    min-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #141619;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.logo{
+    height: 42px;
+    width: 180px;
+    background-color:#141619;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-color: #141619;
+}
+.main-menu{
+    width: 872px;
+    height: 44px;
+}
+.main-menu ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.main-menu ul li{
+    list-style: none;
+    text-decoration: none;
+    height: 24px;
+    font-size: 15px;   
+    text-transform: uppercase;
+    margin: 0 12px;
+}
+.main-menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.get-in-touch{
+    height: 26px;
+    width: 146px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.button-before{
+    border-radius: 50%;
+    background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+    width: 16px;
+    height: 16px;
+
+}
+.get-in-touch button{
+    font-size: 15px;   
+    text-transform: uppercase;
+    background-color: #141619;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.main{
+    top:88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap; 
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    min-width: 1440px; 
+    height: 720px;
+    margin-top: 88px;
+}
+.section-1 div{
+    margin-top: -16px;
+    width: 556px;
+    height: 298px;
+}
+.section-1 h1{
+    width: 556px;
+    box-sizing: border-box;
+    line-height: 76px;
+    font-weight: 500;
+    font-size: 76px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+.section-1 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 528px;
+    height: 86px;
+}
+
+.section-1 button{
+    width: 192px;
+    height: 58px;
+    border-radius: 2px;
+    padding-top: 17px;
+    padding-right: 28.5px;
+    padding-bottom: 19px;
+    padding-left: 27px;
+    background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.section-2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.section-2 div h2{
+    width: 532px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 78px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+}
+
+.section-2 div p{
+    width: 612px;
+    height: 150px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.table{
+    width: 1056px;
+    height: 356px;
+   display: table;
+}
+.section-2 table tr {
+    padding: -20px;
+}
+
+.section-2 table tr td{
+    table-layout: fixed;
+   height: 176px;
+    width: 264px;
+    
+}
+
+#tr2{
+     border-top: 2px solid #5FA4E6;
+}
+
+ .td1{
+    border-right: 2px solid #5FA4E6;
+ }
+ .td2{
+    border-right: 2px solid #5FA4E6;
+ }
+ .td3{
+    border-right: 2px solid #5FA4E6;
+ }
+
+ #tr1 .td2{
+    background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+ }
+ 
+.section-2 table tr td h4{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 15px;
+    margin-top: -8px;
+}
+.section-2 table tr td p{
+    height: 36px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section-2 table{
+    
+    border-collapse: collapse; 
+    border-top: 2px solid #141619;
+}
+
+.section-3{
+    height: 680px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.section-3_background{
+    position:absolute;
+    width: 2038px;
+    height: 2018px;
+    top: 800px;
+    left: -900px;
+    rotate: -60deg;
+    background-image: 100%;
+}
+.section-3_background img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-3_crypto1{
+    width: 1056px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.section-3_crypto1 h2{
+    width: 598px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 78px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+.section-3_crypto1 p{
+    width: 620px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+.section-3_crypto2{
+    margin-top: 122px;
+    width: 1056px;
+    height: 366px;
+    display: flex;
+}
+.section-3_crypto2_projects{
+    margin-left: 0px;
+    width: 422px;
+    height: 366px;
+}
+
+.section-3_crypto2_projects h3{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    vertical-align: middle;   
+}
+.section-3_crypto2_projects h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.section-3_crypto2_projects p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.section-3_crypto2_projects a{
+    display: flex;
+    justify-content: space-between;
+    width: 126px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: 2px;
+    text-decoration: underline;
+    text-decoration-color: #5FA4E6;
+    align-items: center;
+}
+
+.section-3_crypto2_projects a img{
+    width: 18px;
+    height: 18px;
+}
+
+.section-3_crypto2_img{
+    margin-left: 92px;
+    width: 422px;
+    height: 366px;
+    background-image: 100%;
+}
+
+.section-3_crypto2_img img{
+    width: 100%;
+    height: 100%;
+}
+.section-4{
+    width: 1056px;
+    height: 388px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.section-4_img{
+    width: 514px;
+    height: 522px;
+}
+.section-4_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-4_crypto{
+    width: 422px;
+    height: 388px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.section-4_crypto h2{
+    width: 404px;
+    height: 88pc;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    vertical-align: middle;  
+}
+
+.section-4_crypto h4{
+    width: 392px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle; 
+}
+
+.section-4_crypto p{
+    width: 422px;
+    height: 116px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;    
+}
+
+
+.section-4_crypto div{
+    width: 126px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.section-4_crypto div a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: 2px;
+    text-decoration: underline;
+    text-decoration-color:#5FA4E6; 
+}
+.section-4_crypto div img{
+    width: 18px;
+    height: 18px;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+}
